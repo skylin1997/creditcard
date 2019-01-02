@@ -1,16 +1,16 @@
 <template>
   <div class="home">
-    <index/>
+    <CreditCard/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import index from '@/components/index.vue'
+import CreditCard from '../components/CreditCard'
 export default {
-  name: 'home',
+  name: 'Home',
   components: {
-    index
+   CreditCard
   }
 }
 </script>
